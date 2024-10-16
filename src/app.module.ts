@@ -15,7 +15,7 @@ import { JwtGuard } from './auth/guards/jwt.guard';
       host: 'localhost', // Hardcoded DB host
       port: 3306, // Default MySQL port
       username: 'root', // Hardcoded DB username
-      password: 'root', // Hardcoded DB password
+      password: 'pass@word1', // Hardcoded DB password
       database: 'sales', // Hardcoded DB name
       entities: [User],
       synchronize: true, // Set to false in production
